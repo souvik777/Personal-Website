@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">   
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Souvik</title>
+        <link rel="shortcut icon" type="image/png" href="image/android-icon-192x192.png">
+        <meta charset="UTF-8">
+        
+       
+<style>
+body, html {
+    height: 100%;
+    width:100%;
+    font-family ="Alegreya";
+}
+
+.parallax {
+    /* The image used */
+    background-image :url(image/team.jpeg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flip3D{ width:240px; height:200px; margin:10px; float:left; }
+.flip3D > .front{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	background:#3BB9FF; width:240px; height:200px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.flip3D > .back{
+	position:absolute;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	background: #F5E51B; width:240px; height:200px; border-radius: 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.flip3D:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+</style>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top " >
+    <nav class="navbar-custom"> 
+    <div class="container">         
+        <div class="navbar-header">             
+                                           
+               
+                      
+                <a href="index.html"><img src="image/SDbluelogo.png" style="width:190px;height:130px"></a>
+                <li></li>
+                <li></li>
+                
+                
+        </div>
+        
+        <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    
+        <div class="collapse navbar-collapse" id="myNavbar">             
+            <ul class="nav navbar-nav navbar-right"> 
+               <div class="social-menu">
+                <li>
+                    <a class="scrollto nav-link" href = "#education">
+                        <font color="white"><b> EDUCATION</b></font>
+                        <span class = "fa fa-university"></span>    
+                         </a>
+                </li>
+                <li></li> 
+                <li></li> 
+                <li></li> 
+                <li>
+                    <a class="scrollto nav-link" href ="#skills" ><font color="white"><b>SKILLS</b></font>
+                        <span class = "fa fa-music"></span> </a></li>
+                        <li></li>
+                        <li></li> 
+                        <li></li> 
+                <li>
+                    <a class="scrollto nav-link" href ="#project" >
+                        <font color="white"><b>PROJECTS</b></font>   <span class = "fa fa-paint-brush"></span> </a></li>
+                <li></li> 
+                <li></li> 
+                <li></li> 
+                        <li>
+                    <a class="scrollto nav-link" href ="#achievement" >
+                        <font color="white"><b>ACHIEVEMENTS</b></font>    <span class = "fa fa-star"></span> </a></li>
+                     <li></li> 
+                     <li></li> 
+                     <li></li> <li>
+                    <a class="scrollto nav-link" href ="#training" >
+                        <font color="white"><b>TRAINING</b></font>   <span class = "fa fa-laptop"></span> </a></li>        
+                    
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> 
+                    <li></li> <li></li> <li></li> <li></li> 
+                    <li></li> 
+                    
+                <li>
+                    <a type="submit" class="buttonresume" href ="resumelatest.pdf" >
+                        <font color="black"><b> DOWNLOAD MY RESUME</b></font>  </a></li>        
+                
+        </div> 
+                <div >
+                
+                <li>
+                    <a href = "https://www.instagram.com/96souvik/ target="_blank">
+                        <i class = "fa fa-instagram"></i>
+                            
+                         </a>
+                </li> 
+                
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>
+                    <a href = https://github.com/souvik777 target="_blank"">
+                        <img src="image/ghub.gif" style="width:15px;height:15px"></i> </a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li><li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        
+                        
+                <li>
+                    <a href = "https://www.linkedin.com/in/souvik-das-ab1440169/" target="_blank">
+                        <i class = "fa fa-linkedin"></i> </a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                <li>
+                    <a href = "https://www.facebook.com/profile.php?id=100015363580107" target="_blank">
+                        <img src="image/fb.gif" style="width:15px;height:15px"></i> </a></li>        
+                <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                <li>
+                    <a href = "https://www.hackerearth.com/@souvik777" target="_blank">
+                         <img src="image/hearth.gif" style="width:15px;height:15px"> </a></li>        
+                <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                <li>
+                    <a href = "https://www.hackerrank.com/souvik777?hr_r=1" target="_blank">
+                         <img src="image/hrank.gif" style="width:15px;height:15px"> </a></li> 
+                         </div>
+                                
+ </ul>         
+        </div>     
+    </div> 
+        
+    
+</nav>
+    
+</div>
+    <h1><font color="black">WELCOME</font></h1> 
+<div class="parallax"></div>
+
+<div>
+ <script src="script.js">
+    
+</script>
+
+<div class="container">
+    <li></li>
+    <li></li>
+    
+<center>
+<img class="rounded" src="image/myself.jpeg" alt="Avatar" width="15%" height="15%">
+</center>
+    <div>
+        <center>
+            <h1><font class="stylish"  >SOUVIK DAS</font></h1>
+            
+            <div class="container-fluid">
+    <center>
+        <div class="social-menu">
+    <ul> 
+        
+                <li>
+                    <a href = "https://www.instagram.com/96souvik/">
+                        <i class = "fa fa-instagram">
+                             
+                        </i>
+                            
+                         </a>
+                         
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>
+                    <a href = "https://www.facebook.com/profile.php?id=100015363580107">
+                        <span class = "fa fa-facebook">
+                            
+                        </span>
+                            
+                         </a>
+                         
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                 <li>
+                    <a href = "https://www.linkedin.com/in/souvik-das-ab1440169/" target="_blank" ">
+                        <i class = "fa fa-linkedin">
+                            
+                        </i>
+                            
+                         </a>
+                         
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                
+                <li>
+                    <a href = "https://github.com/souvik777">
+                        <span class = "fa fa-github">
+                            
+                        </span>
+                            
+                         </a>
+                         
+                </li>
+            
+ </ul> 
+        </div>       
+    </center>
+</div>
+
+            <font style="font-family:verdana;" ><h4>I am an avid competitive programming enthusiast in Python , C++ and C . I have worked on the development field too being the co-founder of QuizEarn app on the Google Play Store.
+I m currently looking to hone my skills in machine learning and artificial intelligence along with being a regular coder on top online coding platforms </h4>
+            </font>
+            
+        </center>
+    </div>
+</div>
+<br>
+<div class="container-fluid">
+    <center>
+    <ul> 
+        <div class="social-menu">
+                <li>
+                    <a href = "mailto:777souvik@gmail.com">
+                        <span class = "fa fa-envelope">
+                            <font color="white" style="font-family:verdana;"><h4> 777souvik@gmail.com</h4></font> 
+                        </span>
+                            
+                         </a>
+                         
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>
+                    <a href = "cart.php">
+                        <span class = "fa fa-whatsapp" >
+                            <font color="white" style="font-family:verdana;"><h4>91-8250497945 </h4> </font>
+                        </span>
+                            
+                         </a>
+                         
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                 <li>
+                    <a href = "https://96souvikdas.000webhostapp.com" target="_blank" ">
+                        <i class = "fa fa-globe">
+                            <font color="white" style="font-family:verdana;"> <h4>https://96souvikdas.000webhostapp.com</h4></font>
+                        </i>
+                            
+                         </a>
+                         
+                </li>  
+        </div>
+ </ul> 
+       <img src="image/SDlogoyellow.png" style="width:30px;height:30px"><br><br>          
+    </center>
+</div>
+
+
+
+</div>
+   
+
+
+
+<div class="parallax">
+    <div class="bannerimage">
+    <center>
+<div class="container">
+    <center>
+               <div id=education class="bannercontent">
+                <h1><b><font class="stylish" >EDUCATION</font></b></h1><br><br>
+                <a href="#" type="submit" class="btn btn-primary btn-block"><font><b>Bachelor of Technology</b></font></a>
+                <h3><b><font class="stylish" style="font-family:verdana;" >Computer Science and Engineering</font></b></h3>
+                
+                <a href="#" type="submit" class="btn btn-danger btn-block"><b><font class="stylish" >J.K. Institute of Applied Physics and Technology</font></b></a>
+                <h3><b><font class="stylish" style="font-family:verdana;">Allahabad</font></b></h3>
+                
+                <img src="image/jk.gif"><br><br>
+                <li></li>
+            
+               </div>
+            <br><br>
+    </center>
+</div>
+    </div>
+    </center>
+    </div>
+<div class="parallax"></div>
+
+
+ <script src="script.js">
+    
+</script>
+
+<div id=skills class="container">
+    <div class="bannerimageyellow">
+    <center><font style="font-family:verdana;"><h1><b>PROFESSIONAL SKILLS</b></h1></font></center>
+                    <div class="row">
+                        
+                        <div class="col-sm-4">
+                            <br>
+                            <font class="stylish" ><h2><b>PROGRAMMING</b></h2></font>
+                            <br><br>
+                            <button class="buttonskill1"><h6><b>C</b></h6></button><br><br>
+                            <button class="buttonskill1"><h6><b>C++</b></h6></button><br><br>
+                            <button class="buttonskill1"><h6><b>Python</b></h6></button><br><br>
+                            <button class="buttonskill1"><h6><b>Java</b></h6></button><br><br>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <br>
+                            <font class="stylish" ><h2><b>WEB</b></h2></font>
+                            <br><br>
+                            <button class="buttonskill2"><h6><b>Html</b></h6></button><br><br>
+                            <button class="buttonskill2"><h6><b>CSS</b></h6></button><br><br>
+                            <button class="buttonskill2"><h6><b>PHP</b></h6></button><br><br>
+                            <button class="buttonskill2"><h6><b>Javascript</b></h6></button><br><br>
+                            <button class="buttonskill2"><h6><b>Bootstrap</b></h6></button><br><br>
+                        </div>
+                        <div class="col-sm-4">
+                            <br>
+                            <font class="stylish" ><h2><b>OTHER</b></h2></font>
+                            <br><br>
+                            <button class="buttonskill3"><h6><b>Machine Learning</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>Neural Networks</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>Linux</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>Ethical Hacking</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>Android App development</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>SQL</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>Github</b></h6></button><br><br>
+                            <button class="buttonskill3"><h6><b>MS Office</b></h6></button><br><br>
+                        </div>
+                        
+                    </div>
+    <br>
+    <br>
+    <center><h1><font style="stylish" style="font-family:verdana;" color="black"><b>Competitive coding profiles</b></font></h1></center>
+    <div class="row">
+                        <div class="col-sm-2">
+                            <a href="https://www.hackerearth.com/@souvik777" target="_blank" class="thumbnail"><img src="image/hackerearth.png" ></a>
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="https://www.hackerearth.com/@souvik777" target="_blank" class="thumbnail"><img src="image/h1.png"></a>
+                            
+                        
+                    </div>
+                    <div class="col-sm-2">
+                            <a href="https://www.hackerrank.com/souvik777?hr_r=1" target="_blank" class="thumbnail"><img src="image/hackerrank.png"></a>
+                    </div>
+                    <div class="col-sm-2">
+                            <a href="https://www.hackerrank.com/souvik777?hr_r=1" target="_blank" class="thumbnail"><img src="image/h2.png"></a>
+                    </div>
+                    <div class="col-sm-2">
+                            <a href="https://www.codechef.com/users/souvik777" target="_blank" class="thumbnail"><img src="image/codechef.png"></a>
+                    </div>
+                    <div class="col-sm-2">
+                            <a href="https://www.codechef.com/users/souvik777" target="_blank" class="thumbnail"><img src="image/h3.png"></a>
+                    </div>
+    
+    </div>
+    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://www.hackerearth.com/@souvik777" target="_blank" class="thumbnail"><center><h3><font style="stylish">Hackerearth</font></h3></center></a>
+                            
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.hackerrank.com/souvik777?hr_r=1" target="_blank" class="thumbnail"><center><h3><font style="stylish">Hackerrank</font></h3></center></a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://www.codechef.com/users/souvik777" target="_blank" class="thumbnail"><center><h3><font style="stylish">Codechef</font></h3></center></a>
+                            
+                        </div>
+                    </div>
+    <center><img src="image/SDlogoyellow.png" style="width:30px;height:30px"><br><br></center>
+</div>
+</div>
+
+<div class="parallax"></div>   
+<div class="slide-container">
+    <button class="prev">Prev</button>
+  
+  <div class="slider">
+    <div class="thumbs">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <div class="fourth"></div>
+      <div class="fifth"></div>
+      <div class="sixth"></div>
+    </div>
+  </div>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    
+    <button class="next">Next</button>
+</div>
+<script src="script2.js">
+    </script>
+ 
+<div class="parallax"></div>
+<div id=project class="container">
+    
+    <h1><center><font class="stylish"><font style="font-family:verdana;"><b>PROJECTS</b></font></center></h1>
+    <br><a href="#" target="_blank"><h1><center><font color="white">Football Shopping Website</font></center></h1></a>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg1" class="thumbnail" src="image/web1_1.png" alt="HOME PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal1" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal1()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img01">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption1"></div>
+                            </div>
+                            <script src="s1.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg2" class="thumbnail" src="image/web3_1.png" alt="LOGIN PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal2" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal2()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img02">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption2"></div>
+                            </div>
+                            <script src="s2.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg3" class="thumbnail" src="image/web6_1.png" alt="ITEMS PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal3" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal3()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img03">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption3"></div>
+                            </div>
+                            <script src="s3.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg4" class="thumbnail" src="image/web8_1.png" alt="PASSWORD RESET PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal4" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal4()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img04">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption4"></div></div>
+                              <script src="s4.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg5" class="thumbnail" src="image/web9.png" alt="CART DETAILS" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal5" class="modal">
+
+                                <span class="close" onclick="closeModal5()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img05">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption5"></div>
+                            <script src="s5.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg6" class="thumbnail" src="image/web10_1.png" alt="ORDER CONFIRMATION PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal6" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal6()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img06">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption6"></div>
+                              <script src="s6.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+    <br>
+    <a href="https://play.google.com/store/apps/details?id=com.quizearn.rishap.quiz20" target="_blank"><h1><center><font color="white"><i class="fa fa-android"></i>   QuizEarn App</font></center></h1></a>
+           <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg7" class="thumbnail" src="image/quiz1.jpg" alt="SPLASH ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal7" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal7()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img07">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption7"></div>
+                            </div>
+                            <script src="s7.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg8" class="thumbnail" src="image/quiz2.jpg" alt="SIGNIN ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal8" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal8()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img08">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption8"></div>
+                            </div>
+                            <script src="s8.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg9" class="thumbnail" src="image/quiz3.jpeg" alt="HOME ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal9" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal9()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img09">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption9"></div>
+                            </div>
+                            <script src="s9.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg10" class="thumbnail" src="image/quiz4.jpg" alt="QUIZ ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal10" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal10()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img010">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption10"></div></div>
+                              <script src="s10.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg11" class="thumbnail" src="image/quiz5.jpg" alt="RESULT ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal11" class="modal">
+
+                                <span class="close" onclick="closeModal11()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img011">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption11"></div>
+                            <script src="s11.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg12" class="thumbnail" src="image/quiz6.jpeg" alt="ABOUT US ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal12" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal12()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img012">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption12"></div>
+                              <script src="s12.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+    <br>
+    
+    <a href="https://github.com/souvik777/Blood-donation-app" target="_blank"><h1><center><font color="white"><i class="fa fa-android"></i>  Blood Donation App</font></center></h1></a>
+           <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg7" class="thumbnail" src="image/blood2.png" alt="LOGIN ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal7" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal7()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img07">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption7"></div>
+                            </div>
+                            <script src="s7.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg8" class="thumbnail" src="image/blood3.png" alt="PASSWORD RESET" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal8" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal8()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img08">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption8"></div>
+                            </div>
+                            <script src="s8.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg9" class="thumbnail" src="image/blood4.png" alt="HOME ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal9" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal9()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img09">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption9"></div>
+                            </div>
+                            <script src="s9.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg10" class="thumbnail" src="image/blood5.png" alt="HOME MENU" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal10" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal10()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img010">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption10"></div></div>
+                              <script src="s10.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg11" class="thumbnail" src="image/blood6.png" alt="FACT ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal11" class="modal">
+
+                                <span class="close" onclick="closeModal11()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img011">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption11"></div>
+                            <script src="s11.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg12" class="thumbnail" src="image/blood8.png" alt="BLOOD DONOR/SEEKER LIST" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal12" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal12()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img012">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption12"></div>
+                              <script src="s12.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+    <br>
+    <a href="#" target="_blank"><font color="white"><h1><center>Personal Website</center></h1></font></a>
+       <div class="row">
+                        <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg13" class="thumbnail" src="image/w1.png" alt="INITIAL LOOK" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal13" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal13()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img013">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption13"></div>
+                            </div>
+                            <script src="s13.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg14" class="thumbnail" src="image/w2.png" alt="PROFILE SECTION" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal14" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal14()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img014">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption14"></div>
+                            </div>
+                            <script src="s14.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg15" class="thumbnail" src="image/w4.png" alt="PROJECTS SECTION" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal15" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal15()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img015">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption15"></div>
+                            </div>
+                            <script src="s15.js"></script>
+
+                            
+                        </div>
+                            
+                        
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg16" class="thumbnail" src="image/w6.png" alt="SKILLS" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal16" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal16()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img016">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption16"></div></div>
+                              <script src="s16.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg17" class="thumbnail" src="image/w7.png" alt="COMPETITIVE CODING" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal17" class="modal">
+
+                                <span class="close" onclick="closeModal17()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img017">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption17"></div>
+                            <script src="s17.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg18" class="thumbnail" src="image/w8.png" alt="ACHIEVEMENTS" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal18" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal18()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img018">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption18"></div>
+                              <script src="s18.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+           
+       </div>
+    
+    <br>
+    
+    <a href="https://github.com/souvik777/Chat-App" target="_blank"><h1><center><font color="white"><i class="fa fa-android"></i>Space Invaders Game/ Voting app</font></center></h1></a>
+    <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg1" class="thumbnail" src="image/spaceinvaders1.png" alt="HOME PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal1" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal1()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img01">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption1"></div>
+                            </div>
+                            <script src="s1.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg2" class="thumbnail" src="image/spaceinvaders2.png" alt="LOGIN PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal2" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal2()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img02">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption2"></div>
+                            </div>
+                            <script src="s2.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg3" class="thumbnail" src="image/vote1.jpeg" alt="ITEMS PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal3" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal3()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img03">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption3"></div>
+                            </div>
+                            <script src="s3.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg4" class="thumbnail" src="image/vote2.jpeg" alt="PASSWORD RESET PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal4" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal4()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img04">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption4"></div></div>
+                              <script src="s4.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg5" class="thumbnail" src="image/vote3.jpeg" alt="CART DETAILS" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal5" class="modal">
+
+                                <span class="close" onclick="closeModal5()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img05">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption5"></div>
+                            <script src="s5.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg6" class="thumbnail" src="image/vote4.jpeg" alt="ORDER CONFIRMATION PAGE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal6" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal6()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img06">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption6"></div>
+                              <script src="s6.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+   <br>
+   <a href="https://github.com/souvik777/Chat-App" target="_blank"><h1><center><font color="white"><i class="fa fa-android"></i>  Chat App</font></center></h1></a>
+
+    <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg19" class="thumbnail" src="image/chat1.png" alt="SPLASH SCREEN" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal19" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal19()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img019">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption19"></div>
+                            </div>
+                            <script src="s19.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg20" class="thumbnail" src="image/chat3.png" alt="FORGOT PASSWORD" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal20" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal20()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img020">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption20"></div>
+                            </div>
+                            <script src="s20.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg21" class="thumbnail" src="image/chat4.png" alt="HOME ACTIVITY" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal21" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal21()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img021">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption21"></div>
+                            </div>
+                            <script src="s21.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg22" class="thumbnail" src="image/chat5.png" alt="HOME MENU" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal22" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal22()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img022">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption22"></div></div>
+                              <script src="s22.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg23" class="thumbnail" src="image/chat6.png" alt="YEF SITE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal23" class="modal">
+
+                                <span class="close" onclick="closeModal23()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img023">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption23"></div>
+                            <script src="s23.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg24" class="thumbnail" src="image/chat7.png" alt="MESSAGING INTERFACE" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal24" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal24()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img024">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption24"></div>
+                              <script src="s24.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+    </div>
+   <a href="https://github.com/souvik777/hospitaldatabase" target="_blank"><h1><center><font color="white">Python Hospital Database Management System</font></center></h1></a>
+   <div class="row">
+                        <div class="col-sm-2">
+                            <img id="myImg25" class="thumbnail" src="image/p1.png" alt="WELCOME SCREEN" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal25" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal25()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img025">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption25"></div>
+                            </div>
+                            <script src="s25.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg26" class="thumbnail" src="image/p2.png" alt="LOGIN" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal26" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal26()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img026">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption26"></div>
+                            </div>
+                            <script src="s26.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            <img id="myImg27" class="thumbnail" src="image/p3.png" alt="DATABASE MENU" style="width:100%;max-width:300px">
+                           
+<!-- The Modal -->
+                            <div id="myModal27" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal27()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img027">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption27"></div>
+                            </div>
+                            <script src="s27.js"></script>
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg28" class="thumbnail" src="image/p4.png" alt="DETAIL SEARCH" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal28" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal28()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img028">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption28"></div></div>
+                              <script src="s28.js"></script>
+                            
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg29" class="thumbnail" src="image/p5.png" alt="DATABASE DETAILS" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal29" class="modal">
+
+                                <span class="close" onclick="closeModal29()">&times;</span>
+                              
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img029">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption29"></div>
+                            <script src="s29.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+                        <div class="col-sm-2">
+                            
+                            <img id="myImg30" class="thumbnail" src="image/p6.png" alt="DETAILS VIEW" style="width:100%;max-width:300px">
+                            
+<!-- The Modal -->
+                            <div id="myModal30" class="modal">
+
+                              <!-- The Close Button -->
+                              <span class="close" onclick="closeModal30()">&times;</span>
+
+                              <!-- Modal Content (The Image) -->
+                              <img class="modal-content" id="img030">
+
+                              <!-- Modal Caption (Image Text) -->
+                              <div id="caption30"></div>
+                              <script src="s30.js"></script>
+                            </div>
+                            
+
+                            
+                        </div>
+    </div>
+   <center><img src="image/SDlogoyellow.png" style="width:30px;height:30px"><br><br></center>
+</div>
+<div class="parallax"></div>
+<div id=achievement class="container">
+  <center><h1><font style="stylish"><b>Achievements</b></h1></font></center>  
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>World Rank:2591<br>2017</center></h4><br><h4><center>CODECHEF</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">Snackdown 17</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Marks:600/1000<br>2017</center></h4><br><h4><center>NPTEL</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">NPAT 17</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Final Round<br>2017</center></h4><br><h4><center>IIT BHU</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">Krackat 17</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Winner<br>2018</center></h4><br><h4><center>JK Institute of Applied Physics and Technology</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">Capture the Flag 18</font></center></h3></div>
+</div>
+
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Winner<br>2017</center></h4><br><h4><center>JK Institute of Applied Physics and Technology</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">SWAT CUP 17</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Fine Arts degree<br>2014</center></h4><br><h4><center>Bangiya Sangeet Parishad,Kolkata</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">Fine Arts(Painting)</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>Winner<br>2009</center></h4><br><h4><center>Delhi Public School,Guwahati</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">Inter School Cricket</font></center></h3></div>
+</div>
+<div class="flip3D">
+    <div class="back"><br><br><h4><center>AIR 1445<br>2020</center></h4><br><h4><center>CS</center></h4></div>
+    <div class="front"><br><br><br><br><h3><center><font class="stylish">GATE 2020</font></center></h3></div>
+</div>
+  <br><br>
+  
+</div><br><br>
+<center><img src="image/SDlogoyellow.png" style="width:30px;height:30px"><br><br></center>
+<div  class="parallax"></div>
+
+<div id=training class="container">
+<center>
+    <h1><font style="stylish" style="font-family:verdana;">Training/Activities/Workshops</font></h1></center><br>  
+  <div class="panel-group" id="accordion">
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><font class="stylish"><h3><b>ETHICAL HACKING</b></h3></font></a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body"><font color="black" style="font-family:verdana;"><h4>Indian Institute of Information Technology , Allahabad</h4></font>
+          <font color="black" style="font-family:verdana;"><h5>2017</h5></font>
+          <font color="black" style="font-family:verdana;"><h4>Key Skills Acquired: Web and Network Hacking Skills</h4></font>
+              </div>
+      </div>
+    </div>
+
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><font class="stylish"><h3><b>PYTHON</b></h3></font></a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body"><font color="black" style="font-family:verdana;"><h4>Microsoft MTA</h4></font>
+          <font color="black" style="font-family:verdana;"><h5>2018</h5></font>
+          <font color="black" style="font-family:verdana;"><h4>Key Skills Acquired: Python advanced , Database ,GUI</h4></font>
+              </div>
+      </div>
+    </div>
+
+       <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><font class="stylish"><h3><b>TECHNICAL HEAD</b></h3></font></a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body"><font color="black" style="font-family:verdana;"><h4>JK Institute of Applied Physics and Technology ,Allahabad</h4></font>
+          <font color="black" style="font-family:verdana;"><h5>2018</h5></font>
+          <font color="black" style="font-family:verdana;"><h4>Key Skills Acquired: Leadership Skills</h4></font>
+              </div>
+      </div>
+    </div>
+       <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><font class="stylish"><h3><b>ANDROID APP DEVELOPMENT</b></h3></font></a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body" ><font color="black" style="font-family:verdana;"><h4>Indian Institute of Technology , BHU</h4></font>
+          <font color="black" style="font-family:verdana;"><h5>2017</h5></font>
+          <font color="black" style="font-family:verdana;"><h4>Key Skills Acquired: Making Android Apps</h4></font>
+              </div>
+      </div>
+    </div>
+       <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><font class="stylish"><h3><b>INTERNET OF THINGS</b></h3></font></a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body"><font color="black" style="font-family:verdana;"><h4>Institute Of Professional Studies, University Of Allahabad</h4></font>
+          <font color="black" style="font-family:verdana;"><h5>2017</h5></font>
+          <font color="black" style="font-family:verdana;"><h4>Key Skills Acquired: Exposure to various scopes of IOT</h4></font>
+              </div>
+      </div>
+    </div>
+
+    </div>
+  </div> 
+
+
+       <footer >
+            <div class="container">
+                <center>
+                    <p>
+                        <img src="image/SDlogoyellow.png" style="width:30px;height:30px">Copyright © Souvik Das. All Rights Reserved   Contact Us: +91 8250497945
+                    </p>
+                </center>
+            </div>
+        </footer> 
+</body>
+</html>
